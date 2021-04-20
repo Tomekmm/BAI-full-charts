@@ -1,0 +1,60 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@j-t-mcc/vue3-chartjs": "^1.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^3.1.0",
+    "core-js": "^3.6.5",
+    "datatables.net-dt": "^1.10.24",
+    "jquery": "^3.6.0",
+    "mdbvue": "^5.4.1",
+    "vue": "^3.0.0",
+    "vue-datatables-net": "^1.5.0",
+    "vue-good-table": "^2.21.9",
+    "vue-router": "^4.0.6",
+    "vue-sweetalert2": "^4.3.1",
+    "vue3-native-notification": "^0.2.0",
+    "vue3-table-lite": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "^4.1.1",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "csv-loader": "^3.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-cli-plugin-vuetify": "~2.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
